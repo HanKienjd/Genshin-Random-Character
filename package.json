@@ -1,0 +1,40 @@
+{
+  "name": "genshin-impact-team-randomizer",
+  "version": "1.2.4",
+  "description": "A web app to randomize your Genshin Impact team based on the characters that you own",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@locator/babel-jsx": "^0.2.4",
+    "@locator/runtime": "^0.2.4",
+    "@types/node": "^18.15.3",
+    "prettier": "2.8.2",
+    "typescript": "4.9.4",
+    "vite": "4.0.4",
+    "vite-plugin-solid": "2.5.0"
+  },
+  "dependencies": {
+    "solid-js": "1.6.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pustur/genshin-impact-team-randomizer.git"
+  },
+  "author": {
+    "name": "Loris Bettazza",
+    "email": "loris.bettazza@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Pustur/genshin-impact-team-randomizer/issues"
+  },
+  "homepage": "https://github.com/Pustur/genshin-impact-team-randomizer#readme"
+}
