@@ -13,7 +13,7 @@ const [filterRarity, setFilterRarity] = createStore<number[]>([]);
 const [selectedCharacters, setSelectedCharacters] = createLocalStore(
   'selectedCharacters',
   {
-    selectedCharacters: preselectedCharacters,
+    selectedCharacters: [],
   },
 );
 

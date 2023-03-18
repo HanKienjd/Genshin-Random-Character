@@ -47,13 +47,6 @@ const App: Component = () => {
           
           </a>
          </div>
-        {/* <a
-          class={styles.try}
-          href="https://spiralabyss.genshinteams.online"
-          target="_blank"
-        >
-          Randomizer with Preset Teams
-        </a> */}
       </header>
       <main>
         <h1 class={styles.title}>Genshin Impact Randomizer</h1>

@@ -42,7 +42,7 @@
   border-top-left-radius: var(--size-border-radius);
   border-top-right-radius: var(--size-border-radius);
   border-bottom-right-radius: 20px;
-  background-image: url(/img/icons/card-bg.svg),
+  background-image: url(../../assets/img/icons/card-bg.svg),
     linear-gradient(to bottom, var(--color-card-start), var(--color-card-end));
 }
 
